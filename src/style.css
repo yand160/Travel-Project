@@ -6,3 +6,9 @@
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
+
+header {
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/062/083/original/Marseille.jpeg?1673297708);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
