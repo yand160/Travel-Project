@@ -1,14 +1,82 @@
 :root {
-  --primary-color: #281d9e;
+  --primary-color: ;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
-  --primary-color: #823669;
+  --primary-color: ;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  background: rgb(61, 129, 197);
+}
+
+container {
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 header {
   background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/062/083/original/Marseille.jpeg?1673297708);
   background-repeat: no-repeat;
   background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 200px 0;
+}
+
+header h1 {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 1;
+  margin: 30px 0 30px;
+}
+
+header h2 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+header h3 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  margin: 0;
+}
+
+header a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+
+  text-align: center;
+  color: #272044;
+  padding: 16px 32px;
+  margin-top: 32px;
+  display: inline-block;
+  letter-spacing: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: white;
+}
+
+@media (max-width: 900px) {
+  header {
+    padding: 60px 0;
+  }
+}
+
+header h1 {
+  font-size: 48px;
+}
+
+header h2 {
+  font-size: 20px;
+}
+
+header h3 {
+  font-size: 12px;
 }
