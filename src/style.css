@@ -1,18 +1,20 @@
-:root {
-  --primary-color: ;
-  --heading-font-family: "Playfair Display", serif;
-  --default-font-family: "Poppins", sans-serif;
-  --primary-color: ;
-  --secondary-color: #f5f2fe;
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-}
-
 body {
   background: #00bbf0;
+  font-family: "Poppins", sans-serif;
 }
 
-container {
+.container {
   max-width: 1400px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+section {
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -51,7 +53,6 @@ header a {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.5;
-
   text-align: center;
   color: #272044;
   padding: 16px 32px;
@@ -63,7 +64,44 @@ header a {
   background: white;
 }
 
-@media (max-width: 900px) {
+footer {
+  color: white;
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/062/096/original/marseillenight.jpeg?1673298200);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+footer h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 0.7;
+  margin-right: 20px;
+  line-height: 24px;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer a {
+  color: white;
+  opacity: 0.7;
+}
+
+@media (max-width: 960px) {
   header {
     padding: 60px 0;
   }
