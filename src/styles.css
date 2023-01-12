@@ -13,7 +13,7 @@ body {
 }
 
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
   display: block;
 }
 
@@ -38,6 +38,11 @@ body {
   background: white;
   margin: 30px 0;
 }
+
+.card-header.grid {
+  grid gap: 0;
+}
+
 
 .card-body {
   padding: 30px;
@@ -174,6 +179,23 @@ main p {
   opacity: 0.7;
 }
 
+.img {
+  width: 185px;
+  height: 185px;
+}
+
+.card-header img {
+  width: 185px ;
+  height: 185px;
+}
+
+.embed {
+width: 100%;
+aspect-ratio: 1/1;
+}
+
+
+
 footer {
   color: white;
   background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/062/096/original/marseillenight.jpeg?1673298200);
@@ -234,4 +256,12 @@ header h3 {
 
 section {
   padding: 30px;
+}
+
+.card-header img {
+  display: none;
+}
+
+.embed {
+  aspect-ratio: 16/9;
 }
