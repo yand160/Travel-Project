@@ -5,13 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-        crossorigin="anonymous"></script>
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +12,7 @@
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@100;200;300;400;600;800;900&family=Prompt:wght@300&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="/src/style.css" />
+    <link rel="stylesheet" href="src/style.css" />
     <title>Travel Marseille</title>
 </head>
 
@@ -33,12 +26,13 @@
             <a href="#more">Learn more</a>
         </header>
         <main>
-            <section class="grid">
+            <section class="grid grid-2-column">
                 <div>
-                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/062/088/original/viewofcity.jpeg?1673297766"
-                        alt="Marseille city view" class="img-responsive" />
+                    <img src="src/images/viewofcity.jpeg" alt="Marseille city view" width="" height=""
+                        class="img-responsive" />
                 </div>
                 <div>
+                    <a href="more"></a>
                     <h2>Why Marseille?</h2>
                     <h3>Marseille has one of the largest ports of the Mediterranean sea.</h3>
                     <p>
@@ -52,6 +46,85 @@
                         Sint sapiente nobis tempore!
                     </p>
                 </div>
+            </section>
+            <section class="secondary">
+                <h2 class="text-center">PLACES</h2>
+                <h3 class="text-center">My favorite places to visit in Marseille</h3>
+                <div class="grid grid-3-columns">
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="src/images/Palais-Longchamp.jpeg" alt="palais longchamp" width="" height=""
+                                class="img-responsive" />
+                        </div>
+                        <div class="card-body">
+                            <h4>Palais Longchamp</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni tempore odit eius? Illum,
+                                repudiandae odio vero nulla quae quisquam aliquam eos tempore voluptatem, magnam
+                                suscipit repellendus hic nesciunt? Eum, iure.
+                            </p>
+                            <h5>Address:</h5>
+                            <p>Bd Jard. Zoologique, 13004 Marseille, France</p>
+                            <h5>What I like about Palais Longchamp</h5>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde quas iste dolores ad.
+                                Repudiandae, sit. Nisi voluptatum neque eum aperiam accusamus, ipsam repellendus
+                                temporibus eveniet architecto natus earum in suscipit!
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://goo.gl/maps/ns2jkFZsm4mBhTSP8" class="btn" target="_blank"></a>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <img src="src/images/Notre-Dame.jpeg" alt="Notre Dame de la Garde" width="" height=""
+                                    class="img-responsive" />
+                            </div>
+                            <div class="card-body">
+                                <h4>Basilique Notre Dame de la Garde</h4>
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium a ab
+                                    consequuntur,
+                                    quas officia doloribus quisquam iusto commodi dolores ducimus delectus veritatis
+                                    natus
+                                    distinctio in. Deleniti debitis temporibus voluptates animi.
+                                </p>
+                                <h5>Address:</h5>
+                                <p>Rue Fort du Sanctuaire, 13006 Marseille, France</p>
+                                <h5>What I like about Basilique Notre Dame de la Garde</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex at iste nobis eos
+                                    perferendis possimus. At, eaque quaerat quidem voluptas rem labore aliquid
+                                    perferendis
+                                    maiores ut delectus nemo aut neque?
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="https://goo.gl/maps/AMM4KirzEdV6ue5q7" class="btn" target="_blank"></a>
+                            </div>
+                            <div class="card">
+                                <div class="card-header">
+                                    <img src="src/images/bakeryname.jpeg" alt="oldest bakery" width="" height=""
+                                        class="img-responsive" />
+                                </div>
+                                <div class="card-body">
+                                    <h4>Four Des Navettes</h4>
+                                    <p>
+                                        Four Des Navettes is the oldest bakery in France; It is over 100 years old. They
+                                        have been in business since 1781
+                                    </p>
+                                    <h5>Address:</h5>
+                                    <p>136 Rue Sainte, 13007 Marseille, France</p>
+                                    <h5>What I like about the bakery</h5>
+                                    <p>
+                                        Its family own and all of there bake good are made with fresh ingridents
+                                        everyday. My favorite is the Almond Macroons worth the visit.
+                                    </p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="https://goo.gl/maps/WdQpmNwRL9nvvCyHA" class="btn" target="_blank"></a>
+                                </div>
+                            </div>
             </section>
         </main>
         <footer>
