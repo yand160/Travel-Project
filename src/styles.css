@@ -179,14 +179,22 @@ main p {
   opacity: 0.7;
 }
 
-.img {
-  width: 185px;
-  height: 185px;
+.img-Palais-Longchamp {
+  width: 50%;
+  height: 50%;
+  display: block;
 }
 
-.card-header img {
-  width: 185px ;
-  height: 185px;
+.img-Notre-Dame {
+  width: 50%%;
+  height: 50%;
+  display: block;
+}
+
+.img-bakeryname {
+  width: 50%;
+  height: 50%; 
+  display: block;
 }
 
 .embed {
