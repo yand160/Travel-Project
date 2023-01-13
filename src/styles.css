@@ -53,7 +53,7 @@ body {
 }
 
 .btn {
-  display: block;
+  display: inline-block;
   color: white;
   font-weight: 700;
   font-size: 14px;
@@ -61,7 +61,7 @@ body {
   text-align: center;
   letter-spacing: 3px;
   text-transform: uppercase;
-  padding: 16px;
+  padding: 10px 20px;
   background-color: #00bbf0;
   text-decoration: none;
   border-radius: 5px;
