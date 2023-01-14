@@ -180,20 +180,20 @@ main p {
 }
 
 .img-Palais-Longchamp {
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
   display: block;
 }
 
 .img-Notre-Dame {
-  width: 50%%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
   display: block;
 }
 
 .img-bakeryname {
-  width: 50%;
-  height: 50%; 
+  width: 100%;
+  height: 100%; 
   display: block;
 }
 
