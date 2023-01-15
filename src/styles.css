@@ -36,8 +36,8 @@ body {
 
 .image-grid {
   --gap: 16px;
-  grid-template-columns: 4;
-  --row-height: 400px;
+  grid-template-columns: 3;
+  --row-height:600px;
   box-sizing: border-box;
   padding: var(--gap);
   display: grid;
@@ -295,5 +295,5 @@ section {
 .image-grid {
   --gap: 16px;
   --num-cols: 1;
-  --row-height: 150px;
+  --row-height: 300px;
 }
